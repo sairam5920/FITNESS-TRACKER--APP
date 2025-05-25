@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitness Tracker App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🏃 Fitness Tracker</h1>
+  </header>
+
+  <main>
+    <div class="metrics">
+      <div>Steps: <span id="stepCount">0</span></div>
+      <div>Distance: <span id="distance">0</span> meters</div>
+      <div>Calories: <span id="calories">0</span> kcal</div>
+    </div>
+
+    <canvas id="chart" width="300" height="200"></canvas>
+
+    <button onclick="simulateStep()">Simulate Step</button>
+  </main>
+
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
